@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "@hapi/boom": "^10.0.1",
+    "@hono/node-server": "^1.0.0"
+  }
+}
